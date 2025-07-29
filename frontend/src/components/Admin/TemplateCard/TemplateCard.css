@@ -1,0 +1,10 @@
+.template-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+.template-card img {
+  width: 100%;
+  height: auto;
+}

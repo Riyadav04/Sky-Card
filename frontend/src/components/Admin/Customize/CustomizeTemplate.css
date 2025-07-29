@@ -1,0 +1,27 @@
+.customize-template {
+  padding: 20px;
+}
+
+.toolbar {
+  margin-bottom: 15px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.canvas {
+  width: 700px;
+  height: 400px;
+  position: relative;
+  border: 2px dashed #999;
+  background-size: cover;
+  overflow: hidden;
+}
+.customize-container {
+  display: flex;
+}
+
+.canvas-wrapper {
+  flex-grow: 1;
+  padding: 20px;
+}

@@ -1,0 +1,42 @@
+/* Extra polish if needed without Tailwind */
+.editor-sidebar {
+  max-height: calc(100vh - 60px);
+  overflow-y: auto;
+}
+
+.editor-btn {
+  display: inline-block;
+  font-weight: 600;
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  transition: 0.25s;
+  font-size: 0.9rem;
+}
+
+.editor-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  color: #475569;
+  margin-bottom: 4px;
+}
+
+.editor-input {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  background: #f8fafc;
+  padding: 8px 10px;
+  border-radius: 8px;
+  outline: none;
+  font-size: 0.85rem;
+  transition: .2s;
+}
+
+.editor-input:focus {
+  border-color: #0d9488;
+  box-shadow: 0 0 0 3px rgba(13,148,136,0.25);
+}

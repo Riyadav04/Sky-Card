@@ -1,0 +1,127 @@
+.header {
+  background-color :#4da6a6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px 40px; */
+  font-family: 'Poppins', sans-serif;
+  height: 70px;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  color: #f0ffff;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1428a0;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  color: #f0ffff;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fdfbf8;
+  font-size: 16px;
+  font-weight: 600;
+}
+.link:hover{
+  border-bottom: 1px solid #000000;
+}
+.auth-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.signup-bt{
+  background-color:#f0ffff;
+  color: rgb(9, 9, 9);
+  font-weight: bold;
+  border: none;
+  font-size:small;
+  padding: 13px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.login-btn
+{
+  background-color:#f0ffff;
+  color: rgb(14, 14, 14);
+  font-weight: bold;
+  border: none;
+    font-size:small;
+  padding: 13px 12px;
+  border-radius: 10px;
+  cursor: pointer; 
+  margin-right:20px;
+}
+.profile-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logout-button {
+  background-color: #008080;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.logout-button:hover {
+  background-color: #006666;
+}
+
+.user-profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  object-fit: cover;
+  border: 2px solid #008080;
+}
+
+.dropdown-menu {
+  position: absolute;
+  right: 0;
+  top: 50px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 10px 15px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 170px;
+}
+
+.dropdown-menu a,
+.dropdown-menu button {
+  text-decoration: none;
+  color: #2C3E50;
+  font-weight: 500;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-size: 14px;
+}
+
+.dropdown-menu button:hover,
+.dropdown-menu a:hover {
+  color: #008080;
+}

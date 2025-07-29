@@ -1,0 +1,102 @@
+.preview-container {
+  padding: 60px 50px;
+  background-color: #f5f7fa;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.main-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #2C3E50;
+  margin-bottom: 10px;
+}
+
+.sub-title {
+  font-size: 18px;
+  color: #4da6a6;
+  margin-bottom: 30px;
+}
+
+.card-preview {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-left: 410px;
+}
+
+.template-background {
+  position: relative;
+  width: 500px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.field-text {
+  font-family: 'Poppins', sans-serif;
+  word-break: break-word;
+}
+
+.field-image {
+  border: 2px solid #ccc;
+}
+
+.field-button {
+  padding: 6px 12px;
+  border: none;
+  background-color: #4da6a6;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.gradient-btn {
+  background: linear-gradient(45deg, #4da6a6, #2C3E50);
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.gradient-btn:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(45deg, #2C3E50, #4da6a6);
+}
+
+.outline-btn {
+  background: transparent;
+  color: #4da6a6;
+  border: 2px solid #4da6a6;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.outline-btn:hover {
+  background-color: #F0FFFF;
+  transform: translateY(-2px);
+}
+
+.empty-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f7fa;
+}

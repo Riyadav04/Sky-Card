@@ -1,0 +1,144 @@
+.form-wrapper {
+  background: #f7fafc;
+  min-height: 100vh;
+}
+
+.form-header {
+  background: linear-gradient(to right, #0d9488, #0f766e);
+  color: white;
+  padding: 24px;
+  border-radius: 12px 12px 0 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+.form-subtitle {
+  margin-top: 6px;
+  font-size: 0.9rem;
+  color: #ccfbf1;
+}
+
+.progress-bar-wrapper {
+  margin-top: 16px;
+}
+
+.progress-bar {
+  height: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: white;
+  transition: width 0.4s ease-in-out;
+}
+
+.progress-text {
+  font-size: 0.75rem;
+  margin-top: 4px;
+}
+
+.form-container {
+  background: #fff;
+  padding: 24px;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.field-label {
+  font-weight: 600;
+  color: #0f766e;
+  margin-bottom: 4px;
+}
+
+.input-base {
+  padding: 10px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #cbd5e1;
+  transition: all 0.2s ease-in-out;
+}
+
+.input-normal:focus {
+  border-color: #0d9488;
+  box-shadow: 0 0 4px rgba(13, 148, 136, 0.3);
+}
+
+.input-error {
+  border-color: #ef4444;
+}
+
+.error-text {
+  color: #ef4444;
+  font-size: 0.75rem;
+  margin-top: 4px;
+}
+
+.file-preview {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.file-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 1px solid #e5e7eb;
+}
+
+.file-name {
+  font-size: 0.8rem;
+  color: #0f766e;
+  word-break: break-all;
+}
+
+.form-actions {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.action-btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.action-btn.primary {
+  background: #0d9488;
+  color: white;
+}
+
+.action-btn.primary:hover {
+  background: #0f766e;
+}
+
+.action-btn.secondary {
+  background: #e2e8f0;
+}
+
+.action-btn.secondary:hover {
+  background: #cbd5e1;
+}
+
+.action-btn.danger {
+  background: #f87171;
+  color: white;
+}
+
+.action-btn.danger:hover {
+  background: #ef4444;
+}

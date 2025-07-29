@@ -1,0 +1,81 @@
+.header {
+  background-color: #4da6a6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  font-family: 'Poppins', sans-serif;
+  height: 70px;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1428a0;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #f6f3f3;
+  font-size: 20px;
+  font-weight: 600;
+}
+.nav-links a:hover
+{
+  color: #0e0e0e54;
+  
+}
+
+.admin-link:hover{
+  border-bottom: 1px solid #000000;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.signup-bt{
+  background-color:#f0ffff;
+  color: rgb(9, 9, 9);
+  font-weight: bold;
+  border: none;
+  padding: 13px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.login-btn
+{
+  background-color:#f0ffff;
+  color: rgb(14, 14, 14);
+  font-weight: bold;
+  border: none;
+  padding: 13px 12px;
+  border-radius: 10px;
+  cursor: pointer; 
+  margin-right:20px;
+}
+.logout-button
+{
+    background-color:#f0ffff;
+  color: rgb(14, 14, 14);
+  font-weight: bold;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer; 
+  margin-right:20px;
+}

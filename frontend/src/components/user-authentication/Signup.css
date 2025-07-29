@@ -1,0 +1,136 @@
+/* Overall Page Setup */
+.signup-wrapper {
+  height: 728px;
+  display: flex;
+  flex-direction: column;
+  background-color:#F1EFEC;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Centering the form */
+.signup-main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+/* Card Style */
+.signup-card {
+  background: #4da6a6;
+  backdrop-filter: blur(8px);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  max-width: 420px;
+  width: 100%;
+  animation: fadeInUp 0.5s ease;
+}
+
+.signup-card h2 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 8px;
+  color: rgb(14, 14, 14);
+}
+
+.signup-subtext {
+  text-align: center;
+  font-size: 14px;
+  color: rgb(14, 14, 14);
+  margin-bottom: 25px;
+}
+
+/* Form Group with floating labels */
+.form-group {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px 12px 12px 12px;
+  border: 1px solid #fdf3f3;
+  border-radius: 10px;
+  font-size: 14px;
+  background: transparent;
+  transition: all 0.3s;
+  color: #1d1d1d;
+  background-color: white;
+}
+
+.form-group label {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  font-size: 14px;
+  color: #f5f1f1;
+  pointer-events: none;
+  transition: 0.2s ease all;
+}
+
+/* Float label up when input is not empty or focused
+.form-group input:focus + label,
+.form-group input:not(:placeholder-shown) + label {
+  top: -8px;
+  left: 10px;
+  font-size: 12px;
+  background: white;
+  padding: 0 5px;
+  color: #f1f6fc;
+} */
+
+.form-group input:focus {
+  outline: none;
+  border-color: #8bb2e9;
+  box-shadow: 0 0 0 4px rgba(201, 218, 243, 0.1);
+}
+
+/* Button */
+.signup-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #90D1CA;
+  color: rgb(14, 14, 14);
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.signup-btn:hover {
+    background-color: #92f3d6;
+
+}
+
+/* Sign In Prompt */
+.signin-prompt {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 14px;
+  color: #4e4f51;
+}
+
+.signin-prompt a {
+  color: #0056d2;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.signin-prompt a:hover {
+  text-decoration: underline;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+    transform: translateY(25px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}

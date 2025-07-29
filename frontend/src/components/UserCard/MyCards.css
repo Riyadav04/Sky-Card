@@ -1,0 +1,50 @@
+/* src/pages/MyCard.css */
+.mycards-container {
+  padding: 2rem;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.card-template {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 600px;
+  height: 250px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.card-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-profile-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.card-text {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 120px);
+  padding-left: 20px;
+  gap: 2rem;
+  color: #000;
+  font-size: 1rem;
+}
